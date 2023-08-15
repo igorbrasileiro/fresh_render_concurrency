@@ -1,7 +1,9 @@
 # Concurrency bug
 To reproduce the bug run this:
 1. install k6
-2. k6 run script.js & k6 run script_2.js &
+2. run `deno task start`
+3. run `k6 run script.js & k6 run script_2.js &`
+4. open the browser with `http://localhost:8000/admin/demo`
 
 ## Fresh project
 
